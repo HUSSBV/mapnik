@@ -456,6 +456,7 @@ bool placement_finder::single_line_placement(vertex_cache &pp, text_upright_e or
                 cluster_offset.clear();
                 last_cluster_angle = angle;
             }
+            //TODO SOMETHING CUSTOM FOR 90/270 degrees
             if (std::abs(angle) > M_PI/2) ++upside_down_glyph_count;
 
             pixel_position pos = off_pp.current_position() + cluster_offset;
