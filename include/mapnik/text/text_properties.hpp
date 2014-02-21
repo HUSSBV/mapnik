@@ -128,6 +128,7 @@ enum text_upright
     UPRIGHT_RIGHT,
     UPRIGHT_LEFT_ONLY,
     UPRIGHT_RIGHT_ONLY,
+    UPRIGHT_180,
     text_upright_MAX
 };
 
